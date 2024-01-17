@@ -1,0 +1,57 @@
+.about{
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    background-color: #e6e7f5;
+    margin-left: 250px;
+    overflow-y: hidden;
+
+    .image{
+        align-items: center;
+        margin-bottom: 20px;
+
+        .profileP{
+            height: 280px;
+            border-radius: 200px;
+            // width: 80px;
+        }
+    }
+
+    .profile{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .name{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .address{
+        .city{
+            font-weight: lighter;
+        }
+    }
+    
+    .phone{
+        font-family: fantasy;
+    }
+
+    .socials{
+        align-items: center;
+        // justify-content: space-between;
+        
+        .links{
+            //    text-align: center;
+            margin-top: 10px;
+            justify-content: space-between;
+            
+            .social{
+               background-color: inherit;
+            height: 40px;
+           }
+        }
+    }
+
+    .summary{
+        // font-size: larger;
+        font-size: x-large;
+    }
+}

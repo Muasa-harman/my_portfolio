@@ -1,0 +1,37 @@
+.projects{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    // background-color: #e6e7f5;
+    border-radius: 30px;
+
+    .title{
+        text-decoration: underline;
+        background-color: #e6e7f5;
+        padding: 15px;
+        align-items: center;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+        // flex-wrap: wrap;
+        // width: 100vh;
+        // height: 100%;
+
+        .card{
+            // flex: 1 0 50%;
+            // max-width: 50px;
+            // box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+//   margin: 10px; 
+        }
+    }
+}

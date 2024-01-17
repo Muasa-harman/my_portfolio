@@ -1,0 +1,75 @@
+.skills{
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    .titles{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #e3e4fa;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .language{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #464764;
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+
+    .cards{
+        margin-top: 50px;
+        
+        .tools{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+
+            .logo{
+                margin-bottom: 10px;
+                .image{
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50px;
+                    background-color: #7b7fc7;
+                    cursor: pointer;
+    
+                   
+                   
+                }
+            }  
+        }
+
+        .workflow{
+            // background-color: #c8caf0;
+            background-color: #e6e6f0;
+            border-radius: 10px;
+
+            
+            ul{
+                margin-top: -20px;
+
+                .title{
+                    padding: 10px;
+                    font-weight: bold;
+                    font-size: large;
+                   
+                }
+
+                li{
+                    list-style: none;
+                    margin-bottom: 15px;
+                    font-size: large;
+                }
+            }
+        }
+      
+        
+    }
+}

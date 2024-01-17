@@ -1,0 +1,37 @@
+.education{
+    // display: flex;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #e6e7f5;
+    border-radius: 30px;
+    
+
+    .title{
+        align-items: center;
+        // background-color: #bec1f7;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    .school{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
+
+    .time{
+        font-size: larger;
+        font-family: grap;
+        color: rgb(153, 150, 150);
+    }
+
+    .course{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+
+        .grade{
+            font-weight: bold;
+        }
+    }
+}
+
+

@@ -1,0 +1,45 @@
+.experience {
+  padding: 20px;
+  object-fit: fill;
+  margin-left: 250px;
+  background-color: #e3e4fa; // Use the background color variable from sidebar.scss
+  color: #fff; // Use the text color variable from sidebar.scss
+
+  h3 {
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .latest {
+    display: flex;
+    gap: 20px;
+
+    .card1,
+    .card2,
+    .card3 {
+      background-color: #a79898; // Use a specific color for the cards 
+      color: #e6e7f5; // Use a specific text color for the cards
+      padding: 20px;
+      border-radius: 8px;
+
+      h2 {
+        color: #fff;
+        font-size: large;
+      }
+
+      span.duration {
+        color: #fff; // Use a specific duration color for the cards
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

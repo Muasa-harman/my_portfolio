@@ -1,0 +1,15 @@
+.sidebar{
+   flex: 0.3;
+   margin: 40px 50px;
+   background-color: aqua;
+   display: flexbox;
+    .top{
+        margin-top: 20px;
+
+        .image{
+            width: 150px;
+            height: 150px;
+            border-radius: 50px;
+        }
+    }
+}
