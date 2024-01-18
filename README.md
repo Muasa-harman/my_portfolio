@@ -1,6 +1,4 @@
-
-file:///home/harmanmaluti/Downloads/Screenshot%202024-01-17%20at%2023-23-41%20Vite%20React.png
-file:///home/harmanmaluti/Downloads/Screenshot%202024-01-17%20at%2023-23-32%20Vite%20React.png
+![Alt text](<Screenshot 2024-01-17 at 23-22-53 Vite React.png>)![Alt text](<Screenshot 2024-01-17 at 23-23-41 Vite React.png>)![Alt text](<Screenshot 2024-01-17 at 23-22-53 Vite React.png>)
 
 
 
